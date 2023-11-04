@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right top, #007aff, #008bff, #009bff, #00aaff, #00b7ff, #00b3ff, #00afff, #00abff, #0092ff, #0075ff, #0051ff, #2100ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.container{
+    background-color: white;
+    width:300px;
+    margin: 40px auto;
+    padding: 20px 20px 0px 20px;
+}
+
+h4{
+    margin: 0 0 10px 0;
+}
+
+input{
+    width: 290px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 0 10px 0;
+    background-color: rgb(189, 197, 241);
+    border: 0;
+    height: 25px;
+    color: rgb(27, 26, 26);
+    
+}
+
+input:hover{
+    outline: 0;
+}
+
+img{
+    
+    margin: 10px 10px 10px 70px;
+    visibility:hidden;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background-color: #0400ff;
+    color: white;
+    border:0;
+    cursor: pointer;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    text-align: center;
+  }
+
+footer p{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.twitter svg:hover path {
+    fill: #00acee;
+    transition: all ease 0.3s;
+}
+
+.instagram svg:hover path {
+    fill: #ff1e00;
+    transition: all ease 0.3s;
+}
+
+.linkedin svg:hover path {
+    fill: #0072b1 ;
+    transition: all ease 0.3s;
+}
+
+.github svg:hover path {
+    fill: #ffffff;
+    transition: all ease 0.3s;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
