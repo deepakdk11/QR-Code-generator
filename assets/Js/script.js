@@ -7,6 +7,10 @@ const img = document.querySelector("img");
 const downBtn = document.querySelector(".download")
 
 const error = document.querySelector(".error")
+const copy = document.querySelector(".copyright")
+
+const year = new Date().getFullYear()
+copy.innerHTML = `Copyright - &copy; ${year} | All rights reserved`
 
 
 
